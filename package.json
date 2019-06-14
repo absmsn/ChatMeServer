@@ -1,0 +1,24 @@
+{
+  "name": "chatmeserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "start": "forever lib/index.js;"
+  },
+  "author": "hujisha",
+  "license": "ISC",
+  "dependencies": {
+    "connect-multiparty": "^2.2.0",
+    "express": "^4.16.4",
+    "mongoose": "^5.5.1",
+    "multiparty": "^4.2.1",
+    "socket.io": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
